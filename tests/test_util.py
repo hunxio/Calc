@@ -24,6 +24,7 @@ def test_multiply():
     assert multiply(-1, -1) == 1
     assert multiply(0, 1) == 0
     assert multiply(2, 2.5) == 5
+    assert multiply(2, 2.2) == 4.4
 
 def test_divide():
     assert divide(1, 1) == 1
